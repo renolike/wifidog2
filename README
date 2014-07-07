@@ -1,16 +1,4 @@
-#
-# $Id: README 935 2006-02-01 03:22:04Z benoitg $
-#
-
-The WiFi Guard Dog project is a complete and embeddable captive portal
-solution for wireless community groups or individuals who wish to open a
-free HotSpot while still preventing abuse of their Internet connection.
-
-The project's homepage is:
-	http://dev.wifidog.org/
-
-Mailing list interface:
-	http://listes.ilesansfil.org/cgi-bin/mailman/listinfo/wifidog
-
-The project's software is released under the GPL license and is copyright it's respective owners.
-
+    wifidog 被用在自建无线热点上，开源的 wrt系列路由器上用得多，国内有厂家集成软件，稍加改造，做成商业路由器，做无线广告营销。
+    设计得简单，也挺适合微型商家使用的。不过仔细检查其代码，却发现wifidog把wifi路由器的ip地址和端口暴露在internet上，真是一大
+安全隐患，而wifidog在数年前开发已中止，几乎处于无维护状态。
+    本项目无意对wifidog做大的变动，只针对ip地址暴露这个问题做一下修缮，对internet隐藏无线路由器ip地址， 调整了认证流程。
